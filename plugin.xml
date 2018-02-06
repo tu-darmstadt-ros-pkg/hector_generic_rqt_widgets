@@ -1,0 +1,31 @@
+<library path="src">
+  <class name="DiffDriveControlPlugin" type="hector_generic_rqt_widgets.diff_drive_control_widget.DiffDriveControlPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Basic widget to command twist messages
+    </description>
+    <qtgui>
+      <group>
+        <label>Robot Tools</label>
+        <icon type="theme">folder</icon>
+      </group>
+      <label>Diff Drive Control</label>
+      <icon type="theme">input-keyboard</icon>
+      <statustip>Basic widget to command twist messages</statustip>
+    </qtgui>
+  </class>
+  <class name="GazeboInterfacePlugin" type="hector_generic_rqt_widgets.gazebo_interface_widget.GazeboInterfacePlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Basic Gazebo interface
+    </description>
+    <qtgui>
+      <group>
+        <label>Gazebo</label>
+        <icon type="theme">folder</icon>
+      </group>
+      <label>Gazebo Interface</label>
+      <icon>resource/gazebo_logo.png</icon>
+      <statustip>Basic Gazebo interface</statustip>
+    </qtgui>
+  </class>
+</library>
+

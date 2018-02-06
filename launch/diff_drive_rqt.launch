@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>  
+  <arg name="max_linear_vel" default="5.0" />
+  <arg name="max_angular_vel" default="10.0" />
+
+  <node name="diff_drive_control_rqt_widget" pkg="hector_generic_rqt_widgets" type="diff_drive_control_rqt" output="screen" respawn="true">
+    <param name="max_linear_vel" value="$(arg max_linear_vel)" />
+    <param name="max_angular_vel" value="$(arg max_angular_vel)" />
+  </node>
+</launch>

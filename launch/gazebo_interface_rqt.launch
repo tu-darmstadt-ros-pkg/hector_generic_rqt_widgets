@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="gazebo_interface_rqt_widget" pkg="hector_generic_rqt_widgets" type="gazebo_interface_rqt" output="screen" respawn="true" />
+</launch>
